@@ -11,6 +11,6 @@ public class DemoApplication {
 	}
 
 }
-mvn clean package -Pfull spring-boot:repackage
-stress --vm 1 --vm-bytes 512M --timeout 10s
+// mvn clean package -Pfull spring-boot:repackage
+// stress --vm 1 --vm-bytes 512M --timeout 10s
 
